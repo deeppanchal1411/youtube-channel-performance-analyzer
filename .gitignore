@@ -1,0 +1,23 @@
+# Python virtual environment
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Node.js and React
+node_modules/
+client/node_modules/
+client/dist/
+npm-debug.log*
+
+# Python generated files
+*.log
+
+# Editor and operating system files
+.vscode/
+.DS_Store

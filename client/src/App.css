@@ -1,0 +1,23 @@
+body {
+  background: #f5f6fa;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+}
+
+.channel-image {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.video-thumbnail {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
